@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form</title>
+  <link rel="stylesheet" href="form.css">
+</head>
+<body>
+  <div class="form-container">
+    <h2>Student Registration Form</h2>
+    <form>
+
+      <div class="form-group">
+        <label>First Name</label>
+        <input type="text" placeholder="First Name">
+      </div>
+
+      <div class="form-group">
+        <label>Last Name</label>
+        <input type="text" placeholder="Last Name">
+      </div>
+
+      <div class="form-group">
+        <label>Date of Birth</label>
+        <div class="dob">
+          <select><option>Days</option></select>
+          <select><option>Months</option></select>
+          <select><option>Years</option></select>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Email ID</label>
+        <input type="email" placeholder="Email ID">
+      </div>
+
+      <div class="form-group">
+        <label>Gender</label>
+        <div class="gender">
+          <label><input type="radio" name="gender"> Male</label>
+          <label><input type="radio" name="gender"> Female</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Address</label>
+        <textarea rows="3" placeholder="Address"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>Pin Code</label>
+        <input type="text" placeholder="Pin Code">
+      </div>
+
+      <div class="form-group">
+        <label>State</label>
+        <input type="text" placeholder="State">
+      </div>
+
+      <div class="form-group">
+        <label>City</label>
+        <input type="text" placeholder="City">
+      </div>
+
+      <div class="form-group">
+        <label>Country</label>
+        <input type="text" placeholder="Country">
+      </div>
+
+      <div class="form-group">
+        <label>Hobbies</label>
+        <div class="hobbies">
+          <label><input type="checkbox"> Drawing</label>
+          <label><input type="checkbox"> Singing</label>
+          <label><input type="checkbox"> Dancing</label>
+          <label><input type="checkbox"> Sketching</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label>Qualification</label>
+        <table>
+          <tr>
+            <th>Sl.No.</th>
+            <th>Examination</th>
+            <th>Board</th>
+            <th>Percentage</th>
+            <th>Year Of Passing</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td><input type="text" placeholder="Examination"></td>
+            <td><input type="text" placeholder="Board"></td>
+            <td><input type="text"placeholder="Percentage"></td>
+            <td><input type="text"placeholder="Year Of Passing"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td><input type="text" placeholder="Examination"></td>
+            <td><input type="text"placeholder="Board"></td>
+            <td><input type="text"placeholder="Percentage"></td>
+            <td><input type="text"placeholder="Year Of Passing"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td><input type="text" placeholder="Examination"></td>
+            <td><input type="text"placeholder="Board"></td>
+            <td><input type="text"placeholder="Percentage"></td>
+            <td><input type="text"placeholder="Year Of Passing"></td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="form-group">
+        <label>Courses</label>
+        <div class="gender">
+          <label><input type="radio" name="course"> BCA</label>
+          <label><input type="radio" name="course"> MCA</label>
+        </div>
+      </div>
+
+      <div class="button-container">
+        <button type="submit">Send Now</button>
+      </div>
+
+    </form>
+  </div>
+</body>
+</html>
